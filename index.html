@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>areefinalchoice.pk - Your Trusted Online Shopping Destination</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            200: '#bae6fd',
+                            300: '#7dd3fc',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                        },
+                        accent: {
+                            50: '#fffbeb',
+                            100: '#fef3c7',
+                            400: '#fbbf24',
+                            500: '#f59e0b',
+                            600: '#d97706',
+                            700: '#b45309',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.3s ease-out',
+                        'slide-up': 'slideUp 0.3s ease-out',
+                        'slide-down': 'slideDown 0.3s ease-out',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        slideUp: {
+                            '0%': { transform: 'translateY(10px)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' },
+                        },
+                        slideDown: {
+                            '0%': { transform: 'translateY(-10px)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' },
+                        },
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        html { scroll-behavior: smooth; }
+        
+        .modal-backdrop {
+            backdrop-filter: blur(4px);
+        }
+        
+        .social-btn {
+            transition: all 0.2s ease;
+        }
+        
+        .social-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .input-field:focus {
+            box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.2);
+        }
+        
+        .product-card:hover .product-image {
+            transform: scale(1.05);
+        }
+        
+        .product-card:hover .quick-view {
+            opacity: 1;
+        }
+        
+        .category-card:hover .category-image {
+            transform: scale(1.1);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #0ea5e9 0%, #0369a1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 antialiased bg-gray-50">
+    
+    <!-- Top Information Bar -->
+    <div class="bg-primary-900 text-white text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col sm:flex-row justify-between items-center py-2.5 gap-2">
+                <div class="flex items-center space-x-6">
+                    <span class="flex items-center text-primary-200">
+                        <i class="fas fa-phone-alt mr-2 text-primary-400"></i>
+                        <span class="hidden xs:inline">+92 300 1234567</span>
+                    </span>
+                    <span class="flex items-center text-primary-200">
+                        <i class="fas fa-envelope mr-2 text-primary-400"></i>
+                        <span class="hidden xs:inline">info@areefinalchoice.pk</span>
+                    </span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <span class="text-primary-200 text-xs hidden sm:inline">Follow us:</span>
+                    <a href="#" class="text-primary-200 hover:text-white transition transform hover:scale-110">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="text-primary-200 hover:text-white transition transform hover:scale-110">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-primary-200 hover:text-white transition transform hover:scale-110">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="text-primary-200 hover:text-white transition transform hover:scale-110">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html" class="flex items-center group">
+                        <span class="text-2xl md:text-3xl font-extrabold text-primary-900 tracking-tight">
+                            areefinal<span class="text-primary-500 group-hover:transition-colors">choice</span><span class="text-sm text-gray-400 ml-1 font-normal">.pk</span>
+                        </span>
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden xl:flex items-center space-x-1">
+                    <a href="index.html" class="px-4 py-2 rounded-lg text-primary-600 font-semibold bg-primary-50 transition">Home</a>
+                    <a href="#" class="px-4 py-2 rounded-lg text-gray-600 hover:text-primary-600 hover:bg-gray-50 font-medium transition">Shop</a>
+                    <a href="#" class="px-4 py-2 rounded-lg text-gray-600 hover:text-primary-600 hover:bg-gray-50 font-medium transition">Categories</a>
+                    <a href="#" class="px-4 py-2 rounded-lg text-gray-600 hover:text-primary-600 hover:bg-gray-50 font-medium transition">Deals</a>
+                    <a href="#" class="px-4 py-2 rounded-lg text-gray-600 hover:text-primary-600 hover:bg-gray-50 font-medium transition">About Us</a>
+                    <a href="#" class="px-4 py-2 rounded-lg text-gray-600 hover:text-primary-600 hover:bg-gray-50 font-medium transition">Contact</a>
+                </nav>
+
+                <!-- Search Bar (Desktop) -->
+                <div class="hidden md:flex items-center flex-1 max-w-md mx-8">
+                    <div class="relative w-full">
+                        <input type="text" placeholder="Search for products..." class="w-full pl-12 pr-4 py-2.5 bg-gray-100 border-0 rounded-full focus:outline-none focus:ring-2 focus:ring-primary-500 transition text-sm">
+                        <span class="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400">
+                            <i class="fas fa-search"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Action Icons -->
+                <div class="flex items-center space-x-3">
+                    <button class="md:hidden text-gray-600 hover:text-primary-600 transition p-2">
+                        <i class="fas fa-search text-xl"></i>
+                    </button>
+                    
+                    <!-- Wishlist -->
+                    <button class="text-gray-600 hover:text-accent-500 transition p-2 relative group">
+                        <i class="far fa-heart text-xl"></i>
+                        <span class="absolute -top-1 -right-1 bg-accent-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">0</span>
+                    </button>
+                    
+                    <!-- Shopping Cart -->
+                    <button class="text-gray-600 hover:text-primary-600 transition p-2 relative group">
+                        <i class="fas fa-shopping-bag text-xl"></i>
+                        <span class="absolute -top-1 -right-1 bg-primary-600 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">3</span>
+                    </button>
+                    
+                    <!-- User Account -->
+                    <button id="user-menu-btn" class="text-gray-600 hover:text-primary-600 transition p-2 relative group">
+                        <i class="far fa-user text-xl"></i>
+                    </button>
+                    
+                    <!-- Mobile Menu Toggle -->
+                    <button id="mobile-menu-btn" class="xl:hidden text-gray-600 hover:text-primary-600 transition p-2">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden xl:hidden bg-white border-t animate-slide-down">
+            <div class="px-4 py-4 space-y-2">
+                <div class="md:hidden mb-4">
+                    <div class="relative">
+                        <input type="text" placeholder="Search products..." class="w-full pl-12 pr-4 py-3 bg-gray-100 border-0 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500">
+                        <span class="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400">
+                            <i class="fas fa-search"></i>
+                        </span>
+                    </div>
+                </div>
+                <a href="index.html" class="block px-4 py-3 rounded-lg bg-primary-50 text-primary-600 font-semibold">Home</a>
+                <a href="#" class="block px-4 py-3 rounded-lg text-gray-600 hover:bg-gray-50 font-medium">Shop</a>
+                <a href="#" class="block px-4 py-3 rounded-lg text-gray-600 hover:bg-gray-50 font-medium">Categories</a>
+                <a href="#" class="block px-4 py-3 rounded-lg text-gray-600 hover:bg-gray-50 font-medium">Deals</a>
+                <a href="#" class="block px-4 py-3 rounded-lg text-gray-600 hover:bg-gray-50 font-medium">About Us</a>
+                <a href="#" class="block px-4 py-3 rounded-lg text-gray-600 hover:bg-gray-50 font-medium">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- User Account Modal -->
+    <div id="user-modal" class="fixed inset-0 z-50 hidden">
+        <div class="modal-backdrop absolute inset-0 bg-black/50 transition-opacity" id="modal-backdrop"></div>
+        <div class="flex items-center justify-center min-h-screen px-4 py-8">
+            <div class="relative bg-white rounded-2xl shadow-2xl w-full max-w-md transform transition-all scale-95 opacity-0" id="modal-content">
+                <!-- Close Button -->
+                <button id="modal-close" class="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition z-10 w-10 h-10 rounded-full hover:bg-gray-100 flex items-center justify-center">
+                    <i class="fas fa-times text-lg"></i>
+                </button>
+
+                <!-- Tab Navigation -->
+                <div class="flex border-b">
+                    <button id="tab-signin" class="flex-1 py-4 text-center font-bold text-primary-600 border-b-3 border-primary-600 transition-colors relative">
+                        Sign In
+                    </button>
+                    <button id="tab-signup" class="flex-1 py-4 text-center font-bold text-gray-400 hover:text-primary-600 transition-colors">
+                        Create Account
+                    </button>
+                </div>
+
+                <!-- Sign In Form -->
+                <div id="signin-form" class="p-8 animate-fade-in">
+                    <div class="text-center mb-6">
+                        <h2 class="text-2xl font-bold text-gray-800">Welcome Back!</h2>
+                        <p class="text-gray-500 mt-1 text-sm">Sign in to your areefinalchoice.pk account</p>
+                    </div>
+
+                    <!-- Social Login Buttons -->
+                    <div class="space-y-3 mb-6">
+                        <button class="social-btn w-full flex items-center justify-center px-4 py-3.5 border border-gray-200 rounded-xl bg-white text-gray-700 font-medium hover:border-gray-300 transition shadow-sm">
+                            <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google" class="w-5 h-5 mr-3">
+                            <span>Continue with Google</span>
+                        </button>
+                        <button class="social-btn w-full flex items-center justify-center px-4 py-3.5 border border-gray-200 rounded-xl bg-black text-white font-medium hover:bg-gray-900 transition shadow-sm">
+                            <i class="fab fa-apple text-lg mr-3"></i>
+                            <span>Continue with Apple</span>
+                        </button>
+                        <button class="social-btn w-full flex items-center justify-center px-4 py-3.5 border border-gray-200 rounded-xl bg-blue-600 text-white font-medium hover:bg-blue-700 transition shadow-sm">
+                            <i class="fab fa-facebook-f text-lg mr-3"></i>
+                            <span>Continue with Facebook</span>
+                        </button>
+                    </div>
+
+                    <div class="relative mb-6">
+                        <div class="absolute inset-0 flex items-center">
+                            <div class="w-full border-t border-gray-200"></div>
+                        </div>
+                        <div class="relative flex justify-center text-sm">
+                            <span class="px-4 bg-white text-gray-400">or sign in with email</span>
+                        </div>
+                    </div>
+
+                    <!-- Email/Password Sign In -->
+                    <form class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1.5">Email Address</label>
+                            <input type="email" class="input-field w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:border-primary-500 focus:ring-2 focus:ring-primary-100 transition bg-gray-50 focus:bg-white" placeholder="your@email.com">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1.5">Password</label>
+                            <input type="password" class="input-field w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:border-primary-500 focus:ring-2 focus:ring-primary-100 transition bg-gray-50 focus:bg-white" placeholder="••••••••">
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <label class="flex items-center cursor-pointer">
+                                <input type="checkbox" class="w-4 h-4 text-primary-600 border-gray-300 rounded focus:ring-primary-500">
+                                <span class="ml-2 text-sm text-gray-600">Remember me</span>
+                            </label>
+                            <a href="#" class="text-sm text-primary-600 hover:text-primary-700 font-medium">Forgot password?</a>
+                        </div>
+                        <button type="submit" class="w-full bg-primary-600 hover:bg-primary-700 text-white font-semibold py-3.5 rounded-xl transition shadow-lg shadow-primary-500/30 mt-2">
+                            Sign In
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Sign Up Form -->
+                <div id="
